@@ -1,12 +1,14 @@
 # This project was created for students who learn Japanese to help them with reading text: 
 Create your documents and keep them safe in your browser's local storage!
 Highlight the kanji you dont know and automaticaly search for reading and translation(s) using Jisho.org! 
+Demo at https://japanaki.herokuapp.com/
 <p align="center">
 <img src="./readmeAssets/landing.png" title="Landing Page">
 </p>
 <p align="center">
 <img src="./readmeAssets/document.png" title="Document">
 </p>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
