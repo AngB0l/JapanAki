@@ -38,8 +38,7 @@ function Definition(props) {
             console.log(defs);
 
             if (defs[0]) {
-                const text = defs[0].japanese.map((word) => `${word.word} reading: ${word.reading}`);
-
+                const text = `${defs[0].japanese[0].word} reading: ${defs[0].japanese[0].reading}`;
                 const english = defs[0].senses.map((word) => word.english_definitions.join()).join();
                 console.log(english);
                 setDef({ text, english });
